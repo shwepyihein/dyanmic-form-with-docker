@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  frontend:
+    build:
+      context: ./dynamics-form-frontend
+      dockerfile: Dockerfile.dev
+    volumes:
+      - /app/node_modules
+    ports:
+      - '3000:3000'
