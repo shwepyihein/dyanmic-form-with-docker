@@ -1,8 +1,16 @@
+## Run with Docker-compose locally
+
+```bash
+$ docker-compose up --build
+```
+
+## Run with Yarn
+
 ## Installation
 
 ```bash
 $ cd dynamics-form-front-end
-$ npm install
+$ yarn install
 ```
 
 ## Running the app
@@ -10,13 +18,6 @@ $ npm install
 ```bash
 # development
 
+$ yarn run dev
 
-$ npm run dev
-
-```
-
-## Docker
-
-```bash
-$ docker-compose up --build
 ```
